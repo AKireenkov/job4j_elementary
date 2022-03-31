@@ -6,8 +6,8 @@ public class ArrayLoop {
         for (int i = 0; i < num.length; i++) {
             num[i] = i * 2 + 3;
         }
-        for (int j : num) {
-            System.out.println(j);
+        for (int a : num) {
+            System.out.println(a);
         }
     }
 }
